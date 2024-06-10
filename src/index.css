@@ -386,7 +386,7 @@ font-size: 3.5rem;
   font-family: 'Inter';
   color: var(--primary);
   font-weight: bolder;
-  margin-top: 3rem;
+  margin-top: 7rem;
 }
 .img img{
   position: absolute;
@@ -402,3 +402,36 @@ font-size: 3.5rem;
   }
   
 }
+@media (min-width: 1300px;){
+.oa2{
+  margin-left: 7rem;
+  width: 50%;
+  position: relative;
+  left: 20rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.res-title2{
+font-size: 3.5rem;
+  color: var(--primary);
+
+  font-weight: bolder;
+  font-family: 'Inter';
+  letter-spacing: -2px;
+  white-space: nowrap;
+  margin-left: 12rem;
+
+}
+.signin{
+  margin-left: 5rem;
+
+}
+.res-title{
+  margin-left: 4rem;
+}
+.card{
+  margin-inline: 6rem;
+}
+}
+
+
