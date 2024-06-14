@@ -11,7 +11,7 @@ export default function Body(params) {
               </h1>
               </div>
               <div>
-              <p>Lorem ipsum dolor sit amet, qui minim labore cillum sint consectetur cupidatat.</p>
+              <p>Lorem ipsum dolor sit amet, qui minim labore cillum sint consectetur cupidatat. Lorem ipsum sit amer qui minim labore cilum sint consectetur cupidatat</p>
               </div>
             </div>
           </section>

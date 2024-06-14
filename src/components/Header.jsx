@@ -20,7 +20,7 @@ export default function Header(){
           <div className='oahero'>
             <div className='text'>
             <h1 className='make'>Make your websites<span className='span'>Incredible</span></h1>
-            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. sit amet dolor lorem local compare nodejs</p>
 
             <button className='signin'>Sign-in</button><button className='reg'>Register</button>
             </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -29,14 +30,16 @@
   display: flex;
 
   justify-content: space-evenly;
+  margin-bottom: 3rem;
 }
 
 
 .headerTitle{
-  font-size: 4rem;
-  font-family: 'Darker Grotesque';
-  font-weight: bolder;
+  font-size: 3rem;
+  font-family: 'Inter';
+  font-weight: 900;
   color: var(--primary);
+  margin-top: 1rem;
 }
 
 .nav ul li{
@@ -71,34 +74,29 @@
   color: var(--secondary);
 }
 .make{
-  font-size: 5rem;
+  font-size: 6rem;
   line-height:1.3;
-  letter-spacing: -2px;: 
+  letter-spacing: -2px; 
   color: var(--grey);
-  font-weight: bolder;
-  font-family: 'Inter';
+  font-family: 'Montserrat';
+  font-weight: 900;
 }
 .circle{
-  width: 300px;
-  height: 300px;
-background-color: #16cc7e;
-position: absolute;
-z-index: -2;
-border-radius: 200px;
-top: 3rem;
-left: 5rem;
-}
-.signin{
-
-  padding: 1rem 2rem;
-  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: #16cc7e;
+  position: absolute;
+  z-index: -2;
+  border-radius: 200px;
+  top: 4rem;
+  left: 5rem;
 }
 .reg{
   padding: 1rem 2rem;
   border-radius: 10px;
   position: absolute;
   right: 7.5rem;
-  top: 14.7rem;
+  top: 16.7rem;
   border-radius: 20px;
   border:2px solid var(--secondary);
   color: var(--primary);
@@ -106,12 +104,11 @@ left: 5rem;
   font-weight: bolder;
 }
 .oahero p{
-  max-width: 400px;
-  line-height: 1.6;
-  font-family: "Poppins";
-  font-weight: bold;
-  
-
+  max-width: 600px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  font-family: "Inter";
+  font-size: 1.2rem;
 }
 .circle2{
 
@@ -121,7 +118,7 @@ background-color: var(--primary);
 position: absolute;
 z-index: -2;
 border-radius: 200px;
-top: 7rem;
+top: 9rem;
 right: 2rem;
 }
 .text{
@@ -129,14 +126,28 @@ right: 2rem;
 }
 .signin{
   border-radius: 0px;
-  padding: 0.7rem 2rem;
+  padding: 1.6rem 4rem;
   border: none;
   background-color: var(--primary);
   color: white;
   font-weight: bolder;
   position: absolute;
-  left: 27rem;
+  left: 30rem;
   top: 27rem;
+  font-size: 1.1rem;
+  font-family: "Inter";
+  margin-left: 15rem;
+  margin-top: 5rem;
+  /*box-shadow: 7px 7px var(--grey);*/
+}
+.signin:hover{
+  transition: ease-in-out 0.3s;
+  background: none;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  cursor: pointer;
+
+
 }
 .section1{
   display: flex;
@@ -147,15 +158,17 @@ right: 2rem;
 
 }
 .section1 p{
-  max-width: 300px;
+  max-width: 75%;
   text-align:center;
   font-family: 'Poppins';
+  font-size: 1.2rem;
   line-height: 1.6;
+  margin-left: 6.5rem;
 
 }
 .bodytitle{
   font-family: 'Inter';
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: bolder;
   color: var(--secondary);
   letter-spacing: -2px;
@@ -170,19 +183,21 @@ right: 2rem;
   align-items:center;
   border-radius: 100%;
   position: relative;
-  left: 10rem;
+  left: 19rem;
   margin-top: 5rem;
+  margin-bottom: 7rem;
 }
 .reason-text{
   max-width: 50%;
   font-family: 'Poppins';
-  font-size: 90%;
+  font-size: 1rem;
   text-align: center;
   line-height: 1.6;
-  margin-left: 4rem;
+  margin-left: 7rem;
+
 }
 .res-title{
-  font-size: 3.5rem;
+  font-size: 6rem;
   color: var(--primary);
   font-weight: bolder;
   font-family: 'Inter';
@@ -199,9 +214,9 @@ right: 2rem;
   margin-left: 3rem;
   width: 50%;
   position: relative;
-  left: 20rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  right: -40rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 .reason-oa3{
   margin-left: 3rem;
@@ -221,14 +236,14 @@ right: 2rem;
   margin-left: 4rem;
 }
 .res-title2{
-font-size: 3.5rem;
+font-size: 6rem;
   color: var(--primary);
 
   font-weight: bolder;
   font-family: 'Inter';
   letter-spacing: -2px;
   white-space: nowrap;
-  margin-left: 8rem;
+  margin-left: 9.3rem;
 
 }
 .res-title3{
@@ -333,13 +348,16 @@ font-size: 3.5rem;
   max-width: 250px;
   display: inline-block;
   margin: 10px;
-  margin-inline: 2.3rem;
+  margin-inline:7rem;
   box-shadow: 5px 5px 5px lightgrey;
   border: 1px solid hsl(0,0%,80%);
   border-radius: 30px;
   padding: 20px;
   text-align: center;
   margin-bottom:5rem; /* remove later */
+  position: relative;
+  left: 6rem;
+  margin-top: 4rem;
 }
 .card h1{
   font-family: 'inter';
@@ -367,7 +385,7 @@ font-size: 3.5rem;
 
 }
 .lastp{
-  max-width: 75%;
+  max-width: 50%;
   font-family: 'Poppins';
   line-height: 1.6;
 }
@@ -381,12 +399,13 @@ font-size: 3.5rem;
 }
 
 .title{
+
   text-align: center;
   font-size: 5rem;
   font-family: 'Inter';
   color: var(--primary);
   font-weight: bolder;
-  margin-top: 7rem;
+  margin-top: 15rem;
 }
 .img img{
   position: absolute;
@@ -395,6 +414,9 @@ font-size: 3.5rem;
   margin: 3rem 2rem;
   width: 500px;
   height: 500px;
+}
+.oahero{
+  margin-bottom: 10rem;
 }
 @media (max-width: 500px) {
   *{
