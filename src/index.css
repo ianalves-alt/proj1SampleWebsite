@@ -103,6 +103,14 @@
   background: white;
   font-weight: bolder;
 }
+.reg:hover{
+  transition: 0.3s ease-in-out;
+  background-color: var(--primary);
+  border: 1.5px solid white;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .oahero p{
   max-width: 600px;
   line-height: 1.7;
@@ -126,14 +134,14 @@ right: 2rem;
 }
 .signin{
   border-radius: 0px;
-  padding: 1.6rem 4rem;
+  padding: 1.2rem 4rem;
   border: none;
   background-color: var(--primary);
   color: white;
   font-weight: bolder;
   position: absolute;
   left: 30rem;
-  top: 27rem;
+  top: 28rem;
   font-size: 1.1rem;
   font-family: "Inter";
   margin-left: 15rem;
